@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    color:#1a1a1a;
+    margin: 0;
+    padding: 0;
+    font-family: 'Press Start 2P', cursive, sans-serif;
+}
+
+header {
+    background-color: #A020F0;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+section {
+    margin: 2rem;
+    padding: 1rem;
+    max-width: 800px; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+.about-me {
+    margin: 2rem;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    flex-direction: row;
+    gap: 20px;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center; 
+    justify-content: flex-start;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px; 
+    border-radius: 50%; 
+    object-fit: cover;
+    margin-right: 20px; 
+}
+
+.profile-text {
+    max-width: 600px;
+}
+
+h2 {
+    margin-top: 0; 
+}
+
+footer {
+    background-color: #A020F0;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+    position: relative; 
+    bottom: 0;
+}
+
+a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #A020F0;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #800080;
+}
+
+.image-section {
+    position: relative;
+    background-image: url('images/background.webp'); 
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay-box {
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    max-width: 80%; 
+}
+
+h2 {
+    margin-top: 0;
+}
