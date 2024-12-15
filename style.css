@@ -1,4 +1,7 @@
 body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
     font-family: Arial, sans-serif;
     color:#1a1a1a;
     margin: 0;
@@ -64,12 +67,11 @@ footer {
 
 a {
     display: inline-block;
-    margin-top: 20px;
     padding: 10px 20px;
     background-color: #A020F0;
     color: white;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 10px;
     font-weight: bold;
     transition: background-color 0.3s ease;
 }
@@ -101,4 +103,11 @@ a:hover {
 
 h2 {
     margin-top: 0;
+}
+.github {
+    display: display;
+    height: 10px;
+    
+    justify-content: center;
+    align-items: center;
 }
